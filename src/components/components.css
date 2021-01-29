@@ -1,0 +1,166 @@
+/* Landing page*/
+
+.landing-grid{
+    background: rgb(230, 242, 245);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .avatar-img{
+    height: 250px;
+    padding-top: 5em;
+    margin-bottom: 10px;
+  }
+  
+  .banner-text{
+    background-color: rgb(247, 129, 57);
+    border: 3px solid white;
+    width: 75%;
+    margin: auto;
+    border-radius: 50px;
+  }
+  
+  .banner-text h1{
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .banner-text hr{
+    border-top: 5px dotted white;
+    width:50%;
+    margin: auto;
+  }
+  .banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+  }
+  
+  .social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+  .social-links i{
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+  }
+  @media screen and (max-width: 992px){
+      .banner-text p{
+        font-size: 15px;
+      }
+      .banner-text h1{
+        font-size: 20px;
+      }
+      .social-links i{
+        color: white;
+        font-size: 2em;
+        padding: 8px;
+      }
+
+      
+  }
+
+
+/* Projects page*/
+.projects-grid{
+    display: flex;
+}
+@media screen and (max-width: 992px){
+    .projects-grid{
+        display: inline;
+    }
+    .card{
+        margin-bottom: 100px;
+    }
+
+   
+}
+@media screen and (max-width: 1024px){   
+    .projects-grid{
+        
+        margin: auto;
+    }
+}
+
+
+/* Contact page*/
+.contact-body{
+    margin: auto;
+    background: rgb(230, 242, 245);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content:center;
+    padding: top 2em;
+
+}
+
+.contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.contact-grid h2{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    color: rgb(30,181,215)
+}
+.contact-grid p{
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+}
+
+
+.contact-list i{
+    font-size: 40px;
+    padding-right: 9rem;
+    color: rgb(247, 129, 57);
+}
+#mail{
+    padding-right: 8.5rem;
+    background: white;
+}
+
+
+/* Resume page*/
+.container{
+    width: 100%;
+    height: 100%;
+    background: rgb(230, 242, 245);
+}
+
+.resume-right-col{
+    background: rgb(203, 228, 236);
+    color: black;
+    padding: 2em;
+}
+@media screen and (max-width: 992px){
+    .container{
+        background: white;
+        height: 100%;
+    }
+    
+}
+
+/* Skills page */
+.mdl-progress > .progressbar{
+    width: 75%;
+   margin: auto;
+  
+}
+
+
